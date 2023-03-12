@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>your habit.</title>
+  </head>
+
+  <body>
+      <header>
+        <img src="./assets/logo.svg"/>
+        <button id="btn">
+          <i id="icon+" class="fi fi-br-plus"></i>
+        </button>
+      </header>
+
+      <form id="form">
+        <div class="habits">
+          <div class="habit" data-name="run"><img src="./assets/icon-correr.svg"/></div>
+          <div class="habit" data-name="water"><img src="./assets/icon-pingo.svg"/></div>
+          <div class="habit" data-name="food"><img src="./assets/icon-braco.svg"/></div>
+          <div class="habit" data-name="sono"><img src="./assets/icon-sono.svg"/></div>
+          <div class="habit" data-name="dog"><img src="./assets/icon-cachorro.svg"/></div>
+          <div class="habit" data-name="salad"><img src="./assets/icon-comida.svg"/></div>
+        </div>
+
+        <div class="days"></div>
+      </form>
+
+      <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>
