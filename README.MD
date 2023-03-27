@@ -44,7 +44,7 @@ You can view the layout of the project through [in here](https://www.figma.com/f
 ```
 
 ## 📫 Contribute
-To contribute to Finizzi, follow these steps:
+To contribute to your-habit, follow these steps:
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
